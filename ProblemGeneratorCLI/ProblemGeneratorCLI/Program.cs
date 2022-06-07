@@ -7,6 +7,7 @@ namespace ProblemGeneratorCLI
         static void Main(string[] args)
         {
             FourDigitAddWorksheetGenerator.Run();
+            SubtractWithRegroupingGenerator.Run();
 
             Console.WriteLine();
             Console.WriteLine("DONE");
